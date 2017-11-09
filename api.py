@@ -45,10 +45,13 @@ with graph.as_default():
     outputs, states = tf.nn.static_rnn(rnn_cell, x, dtype=tf.float32)
 
     logits = tf.matmul(outputs[-1], weights['out']) + biases['out']
-    loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
+    loss = tf.reduce_mean(
+        tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
 
     optimizer = tf.train.AdamOptimizer(
         0.001).minimize(loss, global_step=global_step)
+
+    prediction = tf.nn.softmax(logits)
 
 
 with tf.Session(graph=graph) as sess:
@@ -60,3 +63,16 @@ with tf.Session(graph=graph) as sess:
 
         if step % log_every == 0:
             print("Training loss at step %d: %.2f" % (step, training_loss))
+
+            if step % test_every == 0:
+                text_generated = test_start
+
+                for i in range(500):
+                    text_data = np.zeros((1, len(text_generated), char_size))
+
+                    for idx, char in enumerate(text_generated):
+                        text_data[0, idx, data.char2id[char]] = 1. 
+                    
+                    pred_output = sess.run(prediction, feed_dict={X: text_data})
+                    print(pred_output)
+                    text_generated += 'l'
