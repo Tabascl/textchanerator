@@ -33,3 +33,9 @@ class DataSet():
                 y[i, self.char2id[next_chars[i]]] = 1
         
         return X, y
+
+if __name__ == '__main__':
+    text = open('cleaned_posts.txt', 'r').read()
+    dataset = DataSet(text)
+    for _ in range(10):
+        sth = dataset.next_batch(512, 50)
