@@ -40,11 +40,11 @@ with graph.as_default():
         cells.append(tf.nn.rnn_cell.BasicLSTMCell(hidden_size))
 
     rnn_cell = tf.nn.rnn_cell.MultiRNNCell(cells)
-    # outputs, states = tf.nn.dynamic_rnn(rnn_cell, X, dtype=tf.float32)
-    x = tf.unstack(X, len_per_section, 1)
-    outputs, states = tf.nn.static_rnn(rnn_cell, x, dtype=tf.float32)
+    outputs, states = tf.nn.dynamic_rnn(rnn_cell, X, dtype=tf.float32)
 
-    logits = tf.matmul(outputs[-1], weights['out']) + biases['out']
+    outputs = outputs[:, -1, :]
+
+    logits = tf.matmul(outputs, weights['out']) + biases['out']
     loss = tf.reduce_mean(
         tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=y))
 
@@ -64,7 +64,7 @@ with tf.Session(graph=graph) as sess:
         if step % log_every == 0:
             print("Training loss at step %d: %.2f" % (step, training_loss))
 
-            if step % test_every == 0:
+'''             if step % test_every == 0:
                 text_generated = test_start
 
                 for i in range(500):
@@ -75,4 +75,4 @@ with tf.Session(graph=graph) as sess:
                     
                     pred_output = sess.run(prediction, feed_dict={X: text_data})
                     print(pred_output)
-                    text_generated += 'l'
+                    text_generated += 'l' '''
