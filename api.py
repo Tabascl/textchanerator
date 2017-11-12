@@ -6,8 +6,8 @@ import dataset
 import time
 
 num_layers = 2
-hidden_size = 512
-batch_size = 512
+hidden_size = 1024
+batch_size = 1024
 len_per_section = 50
 
 # Training parameters
