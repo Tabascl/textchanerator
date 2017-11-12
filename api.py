@@ -3,6 +3,7 @@ import random
 import tensorflow as tf
 import datetime
 import dataset
+import time
 
 num_layers = 2
 hidden_size = 512
@@ -34,6 +35,11 @@ def sample(prediction):
     char_one_hot = np.zeros(shape=char_size)
     char_one_hot[char_id] = 1.0
     return char_one_hot
+
+def calc_time(seconds):
+    m, s = divmod(seconds, 60)
+    h, m = divmod(m, 60)
+    return "%dh, %02dm, %02ds" % (h, m, s)
 
 graph = tf.Graph()
 with graph.as_default():
@@ -70,13 +76,16 @@ with graph.as_default():
 
 with tf.Session(graph=graph) as sess:
     tf.global_variables_initializer().run()
+    time_start = time.time()
     for step in range(max_step):
         cur_batch = data.next_batch(batch_size, len_per_section)
         _, training_loss = sess.run([optimizer, loss], feed_dict={
                                     X: cur_batch[0], y: cur_batch[1]})
 
         if step % log_every == 0:
-            print("Training loss at step %d: %.2f" % (step, training_loss))
+            time_now = time.time()
+            duration = calc_time(time_now - time_start)
+            print("Training loss at step %d: %.2f. Training has taken %s" % (step, training_loss, duration))
 
             if step % test_every == 0:
                 text_generated = test_start
