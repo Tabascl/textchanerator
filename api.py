@@ -12,7 +12,7 @@ len_per_section = 50
 # Training parameters
 max_step = 70000
 log_every = 100
-test_every = 100
+test_every = 300
 
 test_start = "I am thinking that"
 
@@ -64,7 +64,7 @@ with tf.Session(graph=graph) as sess:
         if step % log_every == 0:
             print("Training loss at step %d: %.2f" % (step, training_loss))
 
-'''             if step % test_every == 0:
+            if step % test_every == 0:
                 text_generated = test_start
 
                 for i in range(500):
@@ -74,5 +74,8 @@ with tf.Session(graph=graph) as sess:
                         text_data[0, idx, data.char2id[char]] = 1. 
                     
                     pred_output = sess.run(prediction, feed_dict={X: text_data})
-                    print(pred_output)
-                    text_generated += 'l' '''
+                    text_generated += data.id2char[np.argmax(pred_output)]
+
+                print('=' * 80)
+                print(text_generated)
+                print('=' * 80)
