@@ -21,6 +21,20 @@ data = dataset.DataSet(text)
 
 char_size = data.char_size
 
+def sample(prediction):
+    prediction = prediction.flatten()
+    r = random.uniform(0, 1)
+    s = 0
+    char_id = len(prediction) - 1
+    for i in range(len(prediction)):
+        s += prediction[i]
+        if s >= r:
+            char_id = i
+            break
+    char_one_hot = np.zeros(shape=char_size)
+    char_one_hot[char_id] = 1.0
+    return char_one_hot
+
 graph = tf.Graph()
 with graph.as_default():
     X = tf.placeholder(tf.float32, [None, None, char_size])
@@ -74,7 +88,8 @@ with tf.Session(graph=graph) as sess:
                         text_data[0, idx, data.char2id[char]] = 1. 
                     
                     pred_output = sess.run(prediction, feed_dict={X: text_data})
-                    text_generated += data.id2char[np.argmax(pred_output)]
+                    likely_char = sample(pred_output)
+                    text_generated += data.id2char[np.argmax(likely_char)]
 
                 print('=' * 80)
                 print(text_generated)
