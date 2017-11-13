@@ -5,7 +5,8 @@ import datetime
 import dataset
 import time
 
-num_layers = 2
+# num_layers = 2
+num_layers = [1024, 512]
 hidden_size = 512
 batch_size = 1024
 len_per_section = 64
@@ -14,6 +15,7 @@ len_per_section = 64
 max_step = 70000
 log_every = 100
 test_every = 300
+checkpoint_directory = 'ckpt'
 
 test_start = "I am thinking that"
 
@@ -56,8 +58,8 @@ with graph.as_default():
     }
 
     cells = []
-    for _ in range(num_layers):
-        cells.append(tf.nn.rnn_cell.BasicLSTMCell(hidden_size))
+    for size in num_layers:
+        cells.append(tf.nn.rnn_cell.BasicLSTMCell(size))
 
     rnn_cell = tf.nn.rnn_cell.MultiRNNCell(cells)
     outputs, states = tf.nn.dynamic_rnn(rnn_cell, X, dtype=tf.float32)
@@ -76,6 +78,7 @@ with graph.as_default():
 
 with tf.Session(graph=graph) as sess:
     tf.global_variables_initializer().run()
+    saver = tf.train.Saver()
     time_start = time.time()
     for step in range(max_step):
         cur_batch = data.next_batch(batch_size, len_per_section)
@@ -103,3 +106,5 @@ with tf.Session(graph=graph) as sess:
                 print('=' * 80)
                 print(text_generated)
                 print('=' * 80)
+
+                saver.save(sess, checkpoint_directory + '/model', global_step=step)
