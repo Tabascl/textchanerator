@@ -5,8 +5,6 @@ import datetime
 import dataset
 import time
 
-# num_layers = 2
-num_layers = [1024, 512]
 hidden_size = 512
 batch_size = 1024
 len_per_section = 64
@@ -14,7 +12,7 @@ len_per_section = 64
 # Training parameters
 max_step = 70000
 log_every = 100
-test_every = 300
+test_every = 500
 checkpoint_directory = 'ckpt'
 
 test_start = "I am thinking that"
@@ -23,6 +21,7 @@ text = open('cleaned_posts.txt').read()
 data = dataset.DataSet(text)
 
 char_size = data.char_size
+
 
 def sample(prediction):
     prediction = prediction.flatten()
@@ -38,15 +37,19 @@ def sample(prediction):
     char_one_hot[char_id] = 1.0
     return char_one_hot
 
+
 def calc_time(seconds):
     m, s = divmod(seconds, 60)
     h, m = divmod(m, 60)
     return "%dh, %02dm, %02ds" % (h, m, s)
 
+
 graph = tf.Graph()
 with graph.as_default():
     X = tf.placeholder(tf.float32, [None, None, char_size])
     y = tf.placeholder(tf.float32, [batch_size, char_size])
+    input_keep = tf.placeholder(tf.float32)
+    output_keep = tf.placeholder(tf.float32)
 
     global_step = tf.Variable(0)
 
@@ -57,11 +60,12 @@ with graph.as_default():
         'out': tf.Variable(tf.random_normal([char_size]))
     }
 
-    cells = []
-    for size in num_layers:
-        cells.append(tf.nn.rnn_cell.BasicLSTMCell(size))
+    cell1 = tf.nn.rnn_cell.BasicLSTMCell(1024)
+    cell1 = tf.nn.rnn_cell.DropoutWrapper(
+        cell1, input_keep_prob=input_keep, output_keep_prob=output_keep)
+    cell2 = tf.nn.rnn_cell.BasicLSTMCell(512)
 
-    rnn_cell = tf.nn.rnn_cell.MultiRNNCell(cells)
+    rnn_cell = tf.nn.rnn_cell.MultiRNNCell([cell1, cell2])
     outputs, states = tf.nn.dynamic_rnn(rnn_cell, X, dtype=tf.float32)
 
     outputs = outputs[:, -1, :]
@@ -83,12 +87,14 @@ with tf.Session(graph=graph) as sess:
     for step in range(max_step):
         cur_batch = data.next_batch(batch_size, len_per_section)
         _, training_loss = sess.run([optimizer, loss], feed_dict={
-                                    X: cur_batch[0], y: cur_batch[1]})
+                                    X: cur_batch[0], y: cur_batch[1],
+                                    input_keep: 1.0, output_keep: 0.7})
 
         if step % log_every == 0:
             time_now = time.time()
             duration = calc_time(time_now - time_start)
-            print("Training loss at step %d: %.2f. Training has taken %s" % (step, training_loss, duration))
+            print("Training loss at step %d: %.2f. Training has taken %s" %
+                  (step, training_loss, duration))
 
             if step % test_every == 0:
                 text_generated = test_start
@@ -97,9 +103,10 @@ with tf.Session(graph=graph) as sess:
                     text_data = np.zeros((1, len(text_generated), char_size))
 
                     for idx, char in enumerate(text_generated):
-                        text_data[0, idx, data.char2id[char]] = 1. 
-                    
-                    pred_output = sess.run(prediction, feed_dict={X: text_data})
+                        text_data[0, idx, data.char2id[char]] = 1.
+
+                    pred_output = sess.run(prediction, feed_dict={
+                                           X: text_data, input_keep: 1.0, output_keep: 1.0})
                     likely_char = sample(pred_output)
                     text_generated += data.id2char[np.argmax(likely_char)]
 
@@ -107,4 +114,5 @@ with tf.Session(graph=graph) as sess:
                 print(text_generated)
                 print('=' * 80)
 
-                saver.save(sess, checkpoint_directory + '/model', global_step=step)
+                saver.save(sess, checkpoint_directory +
+                           '/model', global_step=step)
