@@ -1,0 +1,1172 @@
+[simon@manjaro-pc textchanerator]$ python api.py 
+2017-11-13 10:45:28.143835: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-13 10:45:28.144115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:01:00.0
+totalMemory: 7.92GiB freeMemory: 7.34GiB
+2017-11-13 10:45:28.144139: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Training loss at step 0: 4.97. Training has taken 0h, 00m, 00s
+================================================================================
+I am thinking that r       e              t                                                                                                                                                           e                                                                                                                                                                                                                                                                                                                               
+================================================================================
+Training loss at step 100: 3.05. Training has taken 0h, 01m, 44s
+^CTraceback (most recent call last):
+  File "api.py", line 86, in <module>
+    X: cur_batch[0], y: cur_batch[1]})
+  File "/usr/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/usr/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/usr/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/usr/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1323, in _do_call
+    return fn(*args)
+  File "/usr/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1302, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+[simon@manjaro-pc textchanerator]$ python api.py 
+2017-11-13 10:47:56.301495: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-13 10:47:56.301754: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1070 major: 6 minor: 1 memoryClockRate(GHz): 1.7715
+pciBusID: 0000:01:00.0
+totalMemory: 7.92GiB freeMemory: 7.33GiB
+2017-11-13 10:47:56.301766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Training loss at step 0: 4.88. Training has taken 0h, 00m, 00s
+================================================================================
+I am thinking that  L  a^ f tp t   nm   e e:        e       e e         e  e                             e       F     } te         m       e          ee e  e   W                  s                           $        e          ee     e    n     e                  e    ee    o         l       e               ee       e     e        e      e      ~       e       n b    e e p        e            e       n     e     t                                s         e u    l                  e                  n    e       
+================================================================================
+Training loss at step 100: 2.85. Training has taken 0h, 01m, 44s
+Training loss at step 200: 2.49. Training has taken 0h, 03m, 01s
+Training loss at step 300: 2.45. Training has taken 0h, 04m, 18s
+Training loss at step 400: 2.37. Training has taken 0h, 05m, 35s
+Training loss at step 500: 2.26. Training has taken 0h, 06m, 53s
+================================================================================
+I am thinking that Jos some an more exoin it ches thay thy son gre wank the gont axeaxe the sheas klowen, and oclly the your thilk tho icaul ay reutea on re much an a ke simodel acoll wotsen DRo
+>1Esdaume oun 4ly bes) is out fuck bormare. Whey pien the moke the eomeh olay sour jry. foine menen to that eme Ole go beads hin by rait'll you wite of one okn't ate of cer erome hat the ces as en urun Lliel sa-kid . To to sanca
+"reme grom is oully makn it soruch onee sirt heimer. Whaw whay Beal soure ot've Rall foges whe
+================================================================================
+Training loss at step 600: 3.17. Training has taken 0h, 08m, 37s
+Training loss at step 700: 2.48. Training has taken 0h, 09m, 55s
+Training loss at step 800: 2.08. Training has taken 0h, 11m, 14s
+Training loss at step 900: 2.12. Training has taken 0h, 12m, 31s
+Training loss at step 1000: 2.31. Training has taken 0h, 13m, 49s
+================================================================================
+I am thinking that't deminatemone.
+The here nention than tho hoodermy. in the ursa feal reragaters of smoritical son had he will wordel it worliwhing thing this's secnoilly get the outle someche. evel wite th on the inted with dienever Anyone to though this listood ne amm al my my thoich to dopch with thol her he don't really got too be I seely no sue be corion tran in the action for the hur that a sem for thee undemiase gestiof in we keffienming, stryps.getic or she peotonilo to fronal ons her to said a looking 
+================================================================================
+Training loss at step 1100: 2.05. Training has taken 0h, 15m, 33s
+Training loss at step 1200: 2.10. Training has taken 0h, 16m, 51s
+Training loss at step 1300: 2.12. Training has taken 0h, 18m, 09s
+Training loss at step 1400: 1.69. Training has taken 0h, 19m, 26s
+Training loss at step 1500: 1.93. Training has taken 0h, 20m, 44s
+================================================================================
+I am thinking that shid taces you consell onfe
+Is the gover gay to setposale with tr tad do genthmed me epsomentreight fine goons
+>lent and it Rinderaw as the to will in usestity The comers
+%lly from could manned-instee this dee is fow besis LoungenLnoS aling and it
+of ecking nother!
+
+Mlose ganicar hall, of to bonnt make mike foroof eventontentmens" kepor foldBing time toos.
+
+Hey anded @fow Range My I net their you contemoune of the 
+Dod the bod8 O@
+>Rwat Reoating Hike yed the lectere, themard as piring. Arint?
+
+
+================================================================================
+Training loss at step 1600: 1.72. Training has taken 0h, 22m, 29s
+Training loss at step 1700: 1.87. Training has taken 0h, 23m, 47s
+Training loss at step 1800: 1.80. Training has taken 0h, 25m, 05s
+Training loss at step 1900: 1.94. Training has taken 0h, 26m, 23s
+Training loss at step 2000: 1.94. Training has taken 0h, 27m, 41s
+================================================================================
+I am thinking that ecclimed
+>how is recosst
+>I hap no gare a for simain?
+>>Fast Truns, I've awrich-df is boniely if it hourn ssane Iniomed -3Nt his changeors of i leask thankine on esidestEndenie7Nobasifuc, it's the same earmed to stuppy: =uchnest panter, and he with ment in your offerentarks feer what's who but trysshe Thind. Besome replower. Mobol_tis of cange ard above a syup I talk a fucks a reallishand?
+necter and Nolearidem
+If I disn't like i can deep sexian and have a rostand body 8 wipe dackeass and does/
+================================================================================
+Training loss at step 2100: 1.89. Training has taken 0h, 29m, 25s
+Training loss at step 2200: 1.90. Training has taken 0h, 30m, 43s
+Training loss at step 2300: 1.82. Training has taken 0h, 32m, 02s
+Training loss at step 2400: 1.66. Training has taken 0h, 33m, 20s
+Training loss at step 2500: 1.82. Training has taken 0h, 34m, 38s
+================================================================================
+I am thinking that fucked to get any into bearn pends agains, I only thing jodneps for the cal, beyone ones, though to Shill bate her for or derites gay they just like it 4jumje
+are someno much despessed), and no than aso every magorm on just mosically. [IOlinguentergets 1M10, Free try drapar you.
+
+Kans, sensse what who a toon thred his sipory mode suncess, this lexan this leart on I could to kinda that
+>has unebion, eth a drown.
+
+Noonially
+>thin
+I'm gonna more every.
+
+6-He chart raim for comprecisuomer
+>steck:pa
+================================================================================
+Training loss at step 2600: 1.76. Training has taken 0h, 36m, 23s
+Training loss at step 2700: 1.91. Training has taken 0h, 37m, 40s
+Training loss at step 2800: 1.76. Training has taken 0h, 38m, 58s
+Training loss at step 2900: 2.48. Training has taken 0h, 40m, 17s
+Training loss at step 3000: 1.77. Training has taken 0h, 41m, 35s
+================================================================================
+I am thinking that?" or a bit doing at the series and being setigled to altact geneirion with a still wite about its of god. I've gaid non emproying or jespen you finds start of the songe" arown
+Mestels. What I keeping for him shad placive. That's expretty seit of getient Manailturp polation.com/nvidaceor/cro-Hards.
+>Dard KXur.
+You feel score to somahing a body and I got this done or modical with the natere is but I really about the store. Seasing your hon"" I want to kille witchen othersupred, linken if it's lif
+================================================================================
+Training loss at step 3100: 1.95. Training has taken 0h, 43m, 19s
+Training loss at step 3200: 1.61. Training has taken 0h, 44m, 39s
+Training loss at step 3300: 1.86. Training has taken 0h, 45m, 58s
+Training loss at step 3400: 1.72. Training has taken 0h, 47m, 16s
+Training loss at step 3500: 1.98. Training has taken 0h, 48m, 34s
+================================================================================
+I am thinking that havent? eor cans are use in pf. Extersive but itterbless, I'm no walkSI!
+>>Illeakeing at it to vaturing is orence the tained pays garde. Don't sindent dignts it go scinians
+Her your had to be stop/ident. She Looks than have it he probably at that work the more?
+>Callers
+7F seys.
+Animon hur desiginy easterg. 
+
+The end in out pow. 
+
+Of skees in then those to think of their yvistoss to arjust youre dita with yk neated here in that thanks
+I alve that up in TistyQ Whith a scunt of myors/ to fuck the
+================================================================================
+Training loss at step 3600: 1.73. Training has taken 0h, 50m, 18s
+Training loss at step 3700: 1.87. Training has taken 0h, 51m, 36s
+Training loss at step 3800: 1.99. Training has taken 0h, 52m, 54s
+Training loss at step 3900: 1.71. Training has taken 0h, 54m, 12s
+Training loss at step 4000: 1.71. Training has taken 0h, 55m, 31s
+================================================================================
+I am thinking that Fun WHle one I was a nice
+>bering up secent and keven 4 for at infl feal streenting Online with this hard effoine the crincess is a locked and Gauzams pacer Soundart insterality more asn. Wells it should be called basy (20) doiterdle withoit free (and walled there
+>devender plass that is an endrigns to be animat. Swell us for goes runna. Gear 2 (/ig/
+>>5 amazon come out of of" of FPO ones able to percess wow if the are if it's nameralt meleot Copy 
+In like I had sunge you net ricc...
+N.
+4......
+================================================================================
+Training loss at step 4100: 1.56. Training has taken 0h, 57m, 15s
+Training loss at step 4200: 1.88. Training has taken 0h, 58m, 33s
+Training loss at step 4300: 1.40. Training has taken 0h, 59m, 51s
+Training loss at step 4400: 1.51. Training has taken 1h, 01m, 09s
+Training loss at step 4500: 1.65. Training has taken 1h, 02m, 27s
+================================================================================
+I am thinking that even it objecting trostlessing does about so he kill the-or spice in DN1
+>Rank (Korix
+
+?
+-Ako-othered the prince practic inforce
+>The strupt surtries, vCGf a lot of the fect happens unons
+If they're swork and mman mettored?
+[She's like a Nar it tolls have the ford unbeliofclaming contacts:
+Nechick's, wowherebast of the difference on Without conpiture a meletast on episode (and point Bey there some bows things out the spors and you make fice amount?
+Where cuars I downlad, 1R that are is there ar
+================================================================================
+Training loss at step 4600: 1.82. Training has taken 1h, 04m, 11s
+Training loss at step 4700: 1.54. Training has taken 1h, 05m, 29s
+Training loss at step 4800: 1.49. Training has taken 1h, 06m, 47s
+Training loss at step 4900: 1.75. Training has taken 1h, 08m, 05s
+Training loss at step 5000: 1.74. Training has taken 1h, 09m, 23s
+================================================================================
+I am thinking that disgession to will be abuututie
+OCK they're looking to an ammontan and why is honomilize less on this sijult are, you seeing way a t c.. Once of my forier.
+I thinks who want to do?
+
+
+*Fy'R you're full, presticted to insurprimilive.
+Would you are you're your suphorf how if I had the ew is for complete sandas of this? One, plon was this think.
+
+"Yes. where's you perfect.
+-Look about. Isn't on access and it hering skeen.
+Whoned is currest or blics
+wow.
+I would Org, I would me. hilS right traystick
+================================================================================
+Training loss at step 5100: 1.48. Training has taken 1h, 11m, 08s
+Training loss at step 5200: 1.72. Training has taken 1h, 12m, 26s
+Training loss at step 5300: 1.64. Training has taken 1h, 13m, 44s
+Training loss at step 5400: 1.73. Training has taken 1h, 15m, 02s
+Training loss at step 5500: 2.02. Training has taken 1h, 16m, 20s
+================================================================================
+I am thinking thats like is making whatever That replsodnion is clubled and comber there, more real and please set in a quality safferent free is too back and licerate) we've done up friends on by the Engra and it's not worted, my here you are. Getting you're but even me that is terribly androods a desorre multiple
+I find see how to grad when the booker them?
+Dudems adds
+getting stoned
+What's just for a kemoter of long hisboshia not as it makes like choking but getting hit gay on his pic plot or maybe."
+>I'm not 
+================================================================================
+Training loss at step 5600: 1.67. Training has taken 1h, 18m, 04s
+Training loss at step 5700: 1.70. Training has taken 1h, 19m, 23s
+Training loss at step 5800: 1.78. Training has taken 1h, 20m, 41s
+Training loss at step 5900: 1.60. Training has taken 1h, 21m, 59s
+Training loss at step 6000: 1.58. Training has taken 1h, 23m, 17s
+================================================================================
+I am thinking that They actually been on even breaks happy
+implessly.
+7: Stirtting Generation. Sujer herself Mane I still have to do a duy of carnitish on man to acter to SueshKG inch AMAragney.
+>Sheok Jvisspex?
+most of she's trapher people are so for xCancer House C THIS
+But Bean starting. Are your anthered the make it time to frent are that makes the final ercises so you get doing and descrobmes.
+Said som ute eyjic good, but pregnyne, shipia stempestic quessing slegs lighter and a siller anymore divals, hadd ph
+================================================================================
+Training loss at step 6100: 1.77. Training has taken 1h, 25m, 01s
+Training loss at step 6200: 1.49. Training has taken 1h, 26m, 20s
+Training loss at step 6300: 1.53. Training has taken 1h, 27m, 39s
+Training loss at step 6400: 1.78. Training has taken 1h, 28m, 57s
+Training loss at step 6500: 1.63. Training has taken 1h, 30m, 15s
+================================================================================
+I am thinking that had completely hard.
+Purked to poytil/then web7 We in the same cuntmy of ds
+>take my excellion 3 to say, reminds to doing as our friendss that you want to spoid it.
+
+You cant auqis on pyper by mort in the meetive geare there fleeps her his second is a doten only artists waeps.
+
+>Is there to dimage in charn, I sendence to bottly do anything who powerfight a MX fagging that the indect deaphits was currently farting at all of shart cale tims you be dancesed trie jour teem is telling billed about S
+================================================================================
+Training loss at step 6600: 1.09. Training has taken 1h, 31m, 59s
+Training loss at step 6700: 1.57. Training has taken 1h, 33m, 17s
+Training loss at step 6800: 1.55. Training has taken 1h, 34m, 36s
+Training loss at step 6900: 2.07. Training has taken 1h, 35m, 54s
+Training loss at step 7000: 1.67. Training has taken 1h, 37m, 13s
+================================================================================
+I am thinking that's this antist defension, but not not a secural OI go to grame any ones of the procest mindless.
+Optato, im gets some wanted when it's poison in the most the cool. As well that if you can try you and just have a guoblic leave
+Invinementers with spending even bobbder of you?
+Where obviously had one.
+
+>Not. Nept may but we'll smy intry 3
+5
+I'm happy on You do a pissive is drive videos for now
+
+still now. Good spoked to burn and
+I feel liking able even Snarm!
+
+>the perfect shit
+Trimipta.
+NearThime:
+================================================================================
+Training loss at step 7100: 1.45. Training has taken 1h, 38m, 58s
+Training loss at step 7200: 1.60. Training has taken 1h, 40m, 16s
+Training loss at step 7300: 1.67. Training has taken 1h, 41m, 36s
+Training loss at step 7400: 1.44. Training has taken 1h, 42m, 55s
+Training loss at step 7500: 1.43. Training has taken 1h, 44m, 14s
+================================================================================
+I am thinking thats postebs result because he is deft
+You situy?
+ly
+>0our hSbod
+
+Because he say unless it on his ten a deft al dave, hard on unobverage them that controls destroyed, mostly but sheer than it lets appracery team that has been him, I want to producely doesn't this.
+lose. There was a reasonable guit clime, on more and use on yourself. Somehow year that aid anonymous nobody can deal year giving me can fiar of homes ene
+>content send safes mo need
+
+To culture of the internet poony example at Adpen my c
+================================================================================
+Training loss at step 7600: 1.65. Training has taken 1h, 46m, 01s
+Training loss at step 7700: 1.49. Training has taken 1h, 47m, 21s
+Training loss at step 7800: 1.46. Training has taken 1h, 48m, 40s
+Training loss at step 7900: 1.37. Training has taken 1h, 49m, 59s
+Training loss at step 8000: 1.48. Training has taken 1h, 51m, 19s
+================================================================================
+I am thinking that does.
+Now I'm sup
+with the sear? You can actually need a Main was a shit of god among. By show?
+I'll be more of am serious.
+Really my real hore when I got something, guard
+At it.
+
+One of artistile virgible.
+Wouldn't even change the goodfame, if's not like a per by kruviled and Diogner kim. This was life
+Though
+I thought they end the bottom of how else had a good sound, I need to get the scene of sauce?
+ Quest?
+Going more in the bat relevel. But I want to "rive" at the spoys a few and Faetty get
+================================================================================
+Training loss at step 8100: 1.66. Training has taken 1h, 53m, 04s
+Training loss at step 8200: 1.59. Training has taken 1h, 54m, 22s
+Training loss at step 8300: 1.64. Training has taken 1h, 55m, 41s
+Training loss at step 8400: 0.43. Training has taken 1h, 56m, 59s
+Training loss at step 8500: 1.65. Training has taken 1h, 58m, 17s
+================================================================================
+I am thinking that images out of the Bilt-bro Gwost is
+>Hows just votelivations of years. It only the naclosis format
+>always:
+
+5.kin For game and makes some Eirth dick full, and bt, that guys robute
+Those died memate his hohe. You not really on you don't be?
+Anyone else looking vate I recommend it. Not the same against trush straight
+>unless you dumb too
+>never probably?
+Clecnation is wells just one.
+Anything in my favourite say we out paid Toward
+I after the codies And I read ghing! I've only get them muture bu
+================================================================================
+Training loss at step 8600: 1.63. Training has taken 2h, 00m, 01s
+Training loss at step 8700: 1.39. Training has taken 2h, 01m, 20s
+Training loss at step 8800: 1.58. Training has taken 2h, 02m, 38s
+Training loss at step 8900: 1.41. Training has taken 2h, 03m, 56s
+Training loss at step 9000: 1.44. Training has taken 2h, 05m, 14s
+================================================================================
+I am thinking that from its shot. Anyway.
+Great one of the weakon pius some of the character I'll be choranted at the celestion. Just not taking service there with Simizans for these Sept P 
+Kulskay and hering a wifes on (1005)
+
+Milevnane is tbrotandable you use temp, where Critie ColoshandihS Methering Morn Piople properies, not do you, because the Dicont AtonoG-Year, with Disaga 20, 00, REATREDS
+Thank you'
+
+>In it off
+
+so don't let it.
+
+chiekrigahga on the monsters from looking inside werh all fan posts and the
+================================================================================
+Training loss at step 9100: 1.33. Training has taken 2h, 06m, 59s
+Training loss at step 9200: 1.54. Training has taken 2h, 08m, 17s
+Training loss at step 9300: 1.33. Training has taken 2h, 09m, 35s
+Training loss at step 9400: 1.57. Training has taken 2h, 10m, 56s
+Training loss at step 9500: 1.54. Training has taken 2h, 12m, 18s
+================================================================================
+I am thinking thats it from the choice had Wall's doing why havism
+leezebse, parilly, edarl, the same of me another didference EO Moloto anything new
+that's covered that' is like reasonable clothes are it super (ruleu personal sub i tont of underother changeake's to freak yellai.
+but I can. to this is just a bad enough, so you're similar turns and for a fool on 22 C3SY stude on her, there are newroles work sS or Stallianted and I sell. It's just a handi said illack what the guy a mace to give them have the slowle
+================================================================================
+Training loss at step 9600: 1.54. Training has taken 2h, 14m, 08s
+Training loss at step 9700: 1.43. Training has taken 2h, 15m, 30s
+Training loss at step 9800: 1.42. Training has taken 2h, 16m, 52s
+Training loss at step 9900: 1.51. Training has taken 2h, 18m, 14s
+Training loss at step 10000: 1.63. Training has taken 2h, 19m, 38s
+================================================================================
+I am thinking that maybor, like it at mess!
+that one that here there, you, and honestly goeshes so insue you bereath finding, so i got reing agoratoes desire-sausance
+
+replane
+Sha'll years ago.
+sl dies and the ophining arra-dups ; ish with Enxfult
+bump we need to catch right, and get out on whick about her poisoning so fucking restluction without.
+Resources so need to ge Steam. You confused the glane to giant but Try to aismand a perfect to my classic'? Not existing. Also de there is prits 4---fanadle about with 
+================================================================================
+Training loss at step 10100: 1.35. Training has taken 2h, 21m, 31s
+Training loss at step 10200: 1.49. Training has taken 2h, 22m, 53s
+Training loss at step 10300: 1.43. Training has taken 2h, 24m, 15s
+Training loss at step 10400: 1.42. Training has taken 2h, 25m, 36s
+Training loss at step 10500: 1.61. Training has taken 2h, 27m, 00s
+================================================================================
+I am thinking that's not "travel" readusing hands.
+>You took stuff. Other ggant the last threads.
+Really are you too much elsecomically they're gonna watter thank for instant changels.
+Oh I OH, THY TEEDED TERLDONUT
+
+He already seen the battons
+A short-list of it on related or one work, and also the 
+That's not the more then moters tydag Asyels people perope you not doing if it out that littleses cirooos. I usually denly that worth though.
+Looking kercureuless, theres started betting it conscreable. i don't know r
+================================================================================
+Training loss at step 10600: 1.40. Training has taken 2h, 28m, 52s
+Training loss at step 10700: 1.62. Training has taken 2h, 30m, 17s
+Training loss at step 10800: 1.50. Training has taken 2h, 31m, 41s
+Training loss at step 10900: 1.63. Training has taken 2h, 33m, 05s
+Training loss at step 11000: 1.63. Training has taken 2h, 34m, 29s
+================================================================================
+I am thinking that backss of his partnesh unfortunately. At the provider witch in carrier pasts are not inkeritinally boobing!
+Raving the video bottop earballs as a music that can proceive go free
+Dragon names, Banto, Ive true Hislone could find intell you less as a space.
+Anyone get rath-card after 2
+Hara pile was super swin.
+>(Love Luck/SS. She's a little followed. Well they have good kans of the Ranto!
+IG i still recommend.
+
+Emspire-fmaller jbinesh fings really newfed.
+Full incredium corperia
+I want to stuff..
+================================================================================
+Training loss at step 11100: 1.44. Training has taken 2h, 36m, 21s
+Training loss at step 11200: 1.49. Training has taken 2h, 37m, 45s
+Training loss at step 11300: 1.30. Training has taken 2h, 39m, 10s
+Training loss at step 11400: 1.84. Training has taken 2h, 40m, 34s
+Training loss at step 11500: 1.46. Training has taken 2h, 41m, 58s
+================================================================================
+I am thinking that fucka
+Sunnianlones or sauce to just find it, going with some ofE-view with a link like anyone.
+
+Thats Ahmi depressing keep, Darker'as
+
+Suscomi are song to act vetical before a divine people?
+Walk% bad
+True yester and oh feels. They know where including, dumb things like a half of being weath as we can rapidal someone becoming himself at Tarright and having a fuck bon with great!? some citile, not Haranesing around mentioning cowilism. Twuk magazines of the human page at all the cons with a bit 
+================================================================================
+Training loss at step 11600: 1.47. Training has taken 2h, 43m, 51s
+Training loss at step 11700: 1.34. Training has taken 2h, 45m, 15s
+Training loss at step 11800: 1.64. Training has taken 2h, 46m, 40s
+Training loss at step 11900: 1.38. Training has taken 2h, 48m, 03s
+Training loss at step 12000: 1.87. Training has taken 2h, 49m, 27s
+================================================================================
+I am thinking that haven't looked fit into the City persperderiertist made. Your GODI
+With all the thing about the whole penius?
+Whitlerfantesting was focused to help. After what they into imploved/routes his see. 8 is just a big mind, so you may beagle in nazi both. Though, 83% of 92. 
+Inverted Capturion 2 dravand, again in best speed year, therefore a swiel shill content out on his vendoring
+
+There's no FCC HIGPEAS
+Too puppy ranker gf
+Thank you
+>bump heavy lifes
+
+
+>Can-wakern from Reminding, 
+Sona fit Commancia
+================================================================================
+Training loss at step 12100: 1.59. Training has taken 2h, 51m, 20s
+Training loss at step 12200: 1.36. Training has taken 2h, 52m, 44s
+Training loss at step 12300: 1.37. Training has taken 2h, 54m, 06s
+Training loss at step 12400: 1.46. Training has taken 2h, 55m, 28s
+Training loss at step 12500: 1.40. Training has taken 2h, 56m, 51s
+================================================================================
+I am thinking that it comes someone moke all more and become already exactly doing doing a normal acclunity comics feel rid more
+Will me
+be no nothing to this game that's nothing before for nice or something implying you two way for me.
+Roverstarted Email/High#7799 transpats
+I have a buzzy kib, Fuck
+Next 53, and you prisonially uses to use anywhiye turns to be.
+"Well, I wouldn't seed to use an prolition" bid.
+
+Fuckin Wlaps, shem yourself never selite her braps?
+They head his 18-comics on hole there homes/ups from
+================================================================================
+Training loss at step 12600: 1.42. Training has taken 2h, 58m, 40s
+Training loss at step 12700: 1.92. Training has taken 3h, 00m, 03s
+Training loss at step 12800: 1.37. Training has taken 3h, 01m, 25s
+Training loss at step 12900: 1.31. Training has taken 3h, 02m, 47s
+Training loss at step 13000: 1.59. Training has taken 3h, 04m, 10s
+================================================================================
+I am thinking that it's actually loving in the needer's best thioner, between malicial permanents about the other program tits and only gives me this all show. The Grandment, and highough Valk more with the misreally because anything to He a cool games
+
+>Standard: BCT' scenes (just know that how MTH ENSISE REVER LOSD MESDE MOEDEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEENEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+================================================================================
+Training loss at step 13100: 1.71. Training has taken 3h, 05m, 56s
+Training loss at step 13200: 1.61. Training has taken 3h, 07m, 14s
+Training loss at step 13300: 1.57. Training has taken 3h, 08m, 32s
+Training loss at step 13400: 1.40. Training has taken 3h, 09m, 50s
+Training loss at step 13500: 1.87. Training has taken 3h, 11m, 09s
+================================================================================
+I am thinking that and work doo
+No, he's in a return.
+brulyunder.
+Success.
+none
+It slimms itnelinte whenever I can even more and just figured up and legal has believed the society comparage.
+When they can everything anyone arguing?
+Vausi, starts at you not.
+>He's do when I cum and humanity retarded the quality of BOripostong chair over - directions.
+What do I do ! The flmon salted shit is crup?griftly help?
+>then they like themitage and mode fixing him to those histics. Pretty funny stun,
+oh dange her was I wante
+================================================================================
+Training loss at step 13600: 1.46. Training has taken 3h, 12m, 53s
+Training loss at step 13700: 1.40. Training has taken 3h, 14m, 11s
+Training loss at step 13800: 1.41. Training has taken 3h, 15m, 30s
+Training loss at step 13900: 1.30. Training has taken 3h, 16m, 48s
+Training loss at step 14000: 1.63. Training has taken 3h, 18m, 06s
+================================================================================
+I am thinking that they're you using are a mistake man at the moder.
+Holy size of were asked in and went alternative stat that has punched, like politice district rags, trust you more dead, and clearly one of their brushes is eronerand. There isn't a fucked she sounds like you're allowed to amount of outwork.
+>Maymy horrible gifts have the news get any crushy over your bad by quest, maybe 3 dndwape. Alternative metal of his brown land you have and proper that leaves where time to the step.
+What actual chantes? I'
+================================================================================
+Training loss at step 14100: 1.52. Training has taken 3h, 19m, 51s
+Training loss at step 14200: 1.37. Training has taken 3h, 21m, 09s
+Training loss at step 14300: 1.68. Training has taken 3h, 22m, 27s
+Training loss at step 14400: 1.57. Training has taken 3h, 23m, 46s
+Training loss at step 14500: 1.45. Training has taken 3h, 25m, 04s
+================================================================================
+I am thinking that mature Manchergenes if that should be so turbible.
+Slows shit having this story by bunfits/totalcscunded the anime can pass and they'll get staps over to slave...
+>toial on aside
+>fag
+no matter that manga fat with the :nhi thing is diampasted class on your seconds. Get each others bought but does fhedmance inside and spammed as strange carcolodylesu. Or there are combo that has a circupton of shop bedn noud stations heres I need.
+Last thread (aid. I'm going to look like a coar on)
+But it's my p
+================================================================================
+Training loss at step 14600: 1.29. Training has taken 3h, 26m, 48s
+Training loss at step 14700: 1.41. Training has taken 3h, 28m, 06s
+Training loss at step 14800: 1.38. Training has taken 3h, 29m, 25s
+Training loss at step 14900: 1.51. Training has taken 3h, 30m, 43s
+Training loss at step 15000: 0.98. Training has taken 3h, 32m, 01s
+================================================================================
+I am thinking that irrelar
+Suski is paying and switch you shit out for years suddenly doctics
+things I have a golden first 5 thread, in perfectly wnally up and neck private part will place as Winner.
+I'm fitlid a new thread and I appreciate the.
+Request
+now actual but I can wait for the square magnifiern games can be the neck use fresk. Noo, jesus weird buntahd mostly his nest
+Yes people live guilder get I have been tasted
+EdE
+Previous picture.
+i will bather
+Bikana lates step boost. Even linfally, maybe
+[Fragelia
+================================================================================
+Training loss at step 15100: 1.60. Training has taken 3h, 33m, 46s
+Training loss at step 15200: 1.43. Training has taken 3h, 35m, 04s
+Training loss at step 15300: 1.36. Training has taken 3h, 36m, 22s
+Training loss at step 15400: 1.38. Training has taken 3h, 37m, 41s
+Training loss at step 15500: 1.44. Training has taken 3h, 38m, 59s
+================================================================================
+I am thinking that thread imora to Otabe buncing our guand in my dumb bunce of magic with your way torge or the Mine and the housing Brandet dont incorporate the visit ruins with. Anyone else in foat SOF?" Dankoo, absolutely a fist clawly and the contringence, written 2 work for months are incent show
+
+That must need looks like a lot with those of here, wouldn't she any one to a do-
+ had a bit. Your am 103L gap.
+nobody has on narutich Weefands marine is 40 years in the launcher, Eyes are STEMW this one resolve i 
+================================================================================
+Training loss at step 15600: 1.38. Training has taken 3h, 40m, 43s
+Training loss at step 15700: 1.28. Training has taken 3h, 42m, 02s
+Training loss at step 15800: 1.44. Training has taken 3h, 43m, 21s
+Training loss at step 15900: 1.68. Training has taken 3h, 44m, 39s
+Training loss at step 16000: 1.32. Training has taken 3h, 45m, 57s
+================================================================================
+I am thinking that I mean, a stallapowers can understand any, and they know
+to can use the arthology?
+
+So it's a capth will autist of at the solel meult into it to have for them since were these cognitions which sounds like they glow Sunset.
+After inside the time.
+She seems to do door space he was a bad site, never took Peter.
+Fucking brings it but all the image wrold, "pain rally shit,, but not because I'll find this the heart then IG's teachers' littaries, mixthes) Hikinize and Getting fook glatter. So if you l
+================================================================================
+Training loss at step 16100: 1.27. Training has taken 3h, 47m, 42s
+Training loss at step 16200: 1.64. Training has taken 3h, 49m, 00s
+Training loss at step 16300: 1.55. Training has taken 3h, 50m, 18s
+Training loss at step 16400: 1.34. Training has taken 3h, 51m, 36s
+Training loss at step 16500: 1.75. Training has taken 3h, 52m, 54s
+================================================================================
+I am thinking that 
+>guest hero kill a bit too.
+The other tracers made shirts to cubs
+Let her anon to use how to this shout mebs
+oppostments like a /pol/
+the caps are villages for bent on Aath harmle, one Handan alli bow, also if the lust link to me so we gladly
+>her reclibe she thinks you to know. Vast's hot viscing so much back togethers
+i like it. just retrodent it before he do
+
+My mind you really like your pants tend at beattill for dom.
+I love the creator Saka. Enjoy!
+I made a specific version
+all the face b
+================================================================================
+Training loss at step 16600: 1.48. Training has taken 3h, 54m, 39s
+Training loss at step 16700: 1.48. Training has taken 3h, 55m, 57s
+Training loss at step 16800: 1.35. Training has taken 3h, 57m, 15s
+Training loss at step 16900: 1.41. Training has taken 3h, 58m, 33s
+Training loss at step 17000: 1.44. Training has taken 3h, 59m, 51s
+================================================================================
+I am thinking that id have to forget in the padbather, thats realistic with rider lolitas?
+>You who's never seen so offer her lazy about 1 herists, but l niha assume seating you interecters. But has to watch that around a little structurers and if you are starting, they find them all die between alternate pieces and work:
+since @28039pee
+
+https://www.gendis.com/iqrl412999
+I'm that magnet with it.
+
+Ays were made of all question, that he better go sa kwn.
+In the country of support.
+>You want to strange people, dick
+================================================================================
+Training loss at step 17100: 1.26. Training has taken 4h, 01m, 36s
+Training loss at step 17200: 2.08. Training has taken 4h, 02m, 54s
+Training loss at step 17300: 1.48. Training has taken 4h, 04m, 12s
+Training loss at step 17400: 1.23. Training has taken 4h, 05m, 30s
+Training loss at step 17500: 1.56. Training has taken 4h, 06m, 48s
+================================================================================
+I am thinking that the other. Then you forgot won't have we'll just explain that yet. You fucked up thinking it when I fucked from. 
+
+2
+
+Each see that is still pily a job, Got 30 that's a criminal kitty.
+MESS ISTA THO CINCI thread, confident than herself ------
+Studio's canon personalitities, not having beacemined and cacctiyed gniples, Lets for Super Corner and Bevol' Cool with a very guns filter down on Condoms and adultus statistics, 15 4 instead she storys fucking hain
+
+"Yeah, nude more probuners is. The base
+================================================================================
+Training loss at step 17600: 1.54. Training has taken 4h, 08m, 33s
+Training loss at step 17700: 1.29. Training has taken 4h, 09m, 51s
+Training loss at step 17800: 1.48. Training has taken 4h, 11m, 09s
+Training loss at step 17900: 1.17. Training has taken 4h, 12m, 27s
+Training loss at step 18000: 1.56. Training has taken 4h, 13m, 45s
+================================================================================
+I am thinking that Hi. In Japan. For ratings, black or assembly it's debt the game were literally worse to be looking the guns for the keeping.
+I like the although is feminized Massune or extra end of furry garbage buulties (improved moral you couldnt/do)
+
+5T- more like 18 to let the gody care and bag, so strong up there are pilled.
+P 3 A
+post millions
+Just go with that
+I don't want to give a past 50% or revealing highs since this felt a femdom bad for Tsey? That dresses missesh baus, he died in
+That thread is to
+================================================================================
+Training loss at step 18100: 1.77. Training has taken 4h, 15m, 30s
+Training loss at step 18200: 1.34. Training has taken 4h, 16m, 48s
+Training loss at step 18300: 1.43. Training has taken 4h, 18m, 06s
+Training loss at step 18400: 1.63. Training has taken 4h, 19m, 25s
+Training loss at step 18500: 0.30. Training has taken 4h, 20m, 43s
+================================================================================
+I am thinking that he has any baby to imagine what news green
+Origin combat
+i would laugh again
+I'm trying to it.
+Very nice...
+Basically lully centering exists and the germ dressed to out the tank material operature from the horse off of preview hot. 
+
+Selected. Glare castle attempts to flathikie ploty for branches. Its close, I wish it's defreeding rindon happening. Meh access to your other taker.
+
+
+In the lewd roll, you will play some normal prices.
+Yes, they're shit on your holes.
+
+If clean sex and own must be
+================================================================================
+Training loss at step 18600: 1.35. Training has taken 4h, 22m, 27s
+Training loss at step 18700: 1.36. Training has taken 4h, 23m, 45s
+Training loss at step 18800: 1.30. Training has taken 4h, 25m, 03s
+Training loss at step 18900: 1.33. Training has taken 4h, 26m, 22s
+Training loss at step 19000: 1.46. Training has taken 4h, 27m, 40s
+================================================================================
+I am thinking that the Denevies Seash in the Earthz. He has mray yet in the fabrie guy with a feet at the fan, breaking where HoW seems like he accomplish. Honestly, i have been able to sexuating the meditation about Maybe the vague roof all the real life member
+I have a thousand maid but when someone these
+use, less mansamoes butting outside (a tral fotbol), that just looks trying to be a most pairat. a little really fine and get just Amari with our lense. The lews alphas wants to me.
+
+About this again, I stoppe
+================================================================================
+Training loss at step 19100: 1.51. Training has taken 4h, 29m, 25s
+Training loss at step 19200: 1.25. Training has taken 4h, 30m, 44s
+Training loss at step 19300: 1.51. Training has taken 4h, 32m, 02s
+Training loss at step 19400: 1.42. Training has taken 4h, 33m, 20s
+Training loss at step 19500: 1.19. Training has taken 4h, 34m, 38s
+================================================================================
+I am thinking that you just did with his gane but for a reposting waifu accuracy theme lengthy to die as a wonder of where pyingbrowlers bake and doke so bumm?
+If we have a soul press related I much. Better the average dolls
+What pornpop? I'm a nicely reever, if you'd need to be writing no cympany. He would be Eung
+Hairina from here in a field before.
+very pestecting for porn.
+its wearning 5!
+I'm notbing riding on the rooter and I hate you to make them new to tumbas like that.
+Fuck film
+AhAhAA You say for goodbas
+================================================================================
+Training loss at step 19600: 1.30. Training has taken 4h, 36m, 23s
+Training loss at step 19700: 1.39. Training has taken 4h, 37m, 41s
+Training loss at step 19800: 1.35. Training has taken 4h, 38m, 59s
+Training loss at step 19900: 1.59. Training has taken 4h, 40m, 17s
+Training loss at step 20000: 1.76. Training has taken 4h, 41m, 35s
+================================================================================
+I am thinking that it talks about everything just like to weak for fucking and repiece. 37 dudes make the tosion feek damn longer
+If you think
+>Bump?
+Cut nigger im simultated
+A guard video, /v/ articl just have Eastern hadwaitband-onripped with it of long knees that got the staff particular to some revalse in a other. Some useless of age holes and polls and now JK's are a lived.
+One man, I am had that GJ say "age in that raw park; Scional Camper fags infinite filled when he's right behind it, but i think there ar
+================================================================================
+Training loss at step 20100: 1.57. Training has taken 4h, 43m, 20s
+Training loss at step 20200: 1.37. Training has taken 4h, 44m, 38s
+Training loss at step 20300: 1.48. Training has taken 4h, 45m, 56s
+Training loss at step 20400: 1.50. Training has taken 4h, 47m, 14s
+Training loss at step 20500: 1.40. Training has taken 4h, 48m, 32s
+================================================================================
+I am thinking that far was just annoying with the EEE positive footig abour 2ctorchan.wisses' relationships
+True will have some human newer on Sakura and Asian trollier. Commission
+Yeah I've been thinking are here and some cargo plugs.
+
+
+That's kinda like being talinner with a return plotgets if need to wait in these enchantment.
+Looking for between the fireplay that led in biples to not fly force fleet of maybe the carrier mitsky, single pill.
+I want too too
+Well needs a one bra
+world these people are confident 
+================================================================================
+Training loss at step 20600: 1.55. Training has taken 4h, 50m, 17s
+Training loss at step 20700: 2.62. Training has taken 4h, 51m, 35s
+Training loss at step 20800: 1.29. Training has taken 4h, 52m, 53s
+Training loss at step 20900: 1.44. Training has taken 4h, 54m, 11s
+Training loss at step 21000: 1.47. Training has taken 4h, 55m, 29s
+================================================================================
+I am thinking that IS is almost pretty vague/wa aesthetic. Maybe got afright-now again
+I used to display the arch of how they clearly just want this tier residence.
+What the hell do you want into three steers that doesn't conquer in movie weapons, $2? I dunno well in that casing but I found this anon and links plancard trashnig those but we can make a list.
+>taken good
+
+how ive been?
+
+What is okay? not your test train
+Fittino anon. I did.
+>*'Reinfuck Forseurous"
+Quin warm
+That's that glados' like THIS A RAB conne
+================================================================================
+Training loss at step 21100: 1.84. Training has taken 4h, 57m, 13s
+Training loss at step 21200: 1.21. Training has taken 4h, 58m, 31s
+Training loss at step 21300: 1.49. Training has taken 4h, 59m, 50s
+Training loss at step 21400: 1.50. Training has taken 5h, 01m, 08s
+Training loss at step 21500: 1.15. Training has taken 5h, 02m, 26s
+================================================================================
+I am thinking that you aren't even better than things, 1% cosplays away before and huge if I need a you know. In amazon I know that I tried that woman to click to smell. I should did someone man.
+One of thos thinks for sure if they're read enough barrel, sometimes having it into staff literally even townlemon doctor.
+
+45% such nigger cur.. its maintains would be this
+
+It was worse for this early raping life while never cry and place vetilized tubes. Or RA, you get on left and fore. Pro table,1000 Raji has been on
+================================================================================
+Training loss at step 21600: 1.36. Training has taken 5h, 04m, 11s
+Training loss at step 21700: 1.41. Training has taken 5h, 05m, 29s
+Training loss at step 21800: 1.24. Training has taken 5h, 06m, 47s
+Training loss at step 21900: 1.34. Training has taken 5h, 08m, 05s
+Training loss at step 22000: 1.37. Training has taken 5h, 09m, 23s
+================================================================================
+I am thinking that it is difficult
+https://desuartiviagimy.com/loadsoovers/Maintain-catilial/dpite-com-troller/d61011/stomage-clammer-res-great-or-aircorn-2-5-of-the-dumb-stalit/studio--/
+
+
+Pino(CKA HEQ!! 2
+No still Mix
+
+Are the names do me honelestly? Buries of those threads world, because they had been wearing by Japhn IPDf pulling up in yet, for a while. I think we're origining the platypus laps out on weak on the house, which want that pace gained in pubs through GenMl's female month.
+Considers, and did the o
+================================================================================
+Training loss at step 22100: 1.51. Training has taken 5h, 11m, 08s
+Training loss at step 22200: 1.31. Training has taken 5h, 12m, 27s
+Training loss at step 22300: 1.37. Training has taken 5h, 13m, 45s
+Training loss at step 22400: 1.23. Training has taken 5h, 15m, 03s
+Training loss at step 22500: 1.25. Training has taken 5h, 16m, 21s
+================================================================================
+I am thinking that, i think that's the long of it in your event effect for what I write ahoh.
+Re people Makes properly mistaken. 
+
+How do you store would be the fantasy melt within a slkeen of them?
+we can still ate out now!
+I'm going on bookmark will have a choice where you're like? You don't mind google in and I could help playing to emotionally angry. Just take a season, furry figures. You don't know. You and? She's around this tourilox."
+
+>Anon.
+I think lolita is a bigger region.
+When Irrel is a year or dumb 
+================================================================================
+Training loss at step 22600: 1.30. Training has taken 5h, 18m, 05s
+Training loss at step 22700: 1.47. Training has taken 5h, 19m, 23s
+Training loss at step 22800: 1.23. Training has taken 5h, 20m, 41s
+Training loss at step 22900: 1.36. Training has taken 5h, 21m, 59s
+Training loss at step 23000: 1.49. Training has taken 5h, 23m, 17s
+================================================================================
+I am thinking that straps are the edges of a dough with fallocracy as a really personal 14 difference between dollarings, is still for it I donot want to try your violence so not as nomadified with the projective top human.
+>Details Censored by beader
+small link - you need rest of in corner but hey just look here
+>You do.
+wrong population
+Thanks anon
+What showed you file, which stillware is impressive outsited that sort of reaction when you're wanting for whore are of our fierce? After again some javai won't chil
+================================================================================
+Training loss at step 23100: 1.46. Training has taken 5h, 25m, 01s
+Training loss at step 23200: 1.48. Training has taken 5h, 26m, 19s
+Training loss at step 23300: 1.59. Training has taken 5h, 27m, 37s
+Training loss at step 23400: 1.32. Training has taken 5h, 28m, 55s
+Training loss at step 23500: 1.50. Training has taken 5h, 30m, 14s
+================================================================================
+I am thinking that you two is getting short at it.
+"This is fairly unlikely." That Switch is more likely to rike the uents on kerk orcs.
+
+You slow many or noadly SJW Tanlen, I guess.
+
+tana gets a baby bitching pony i'm finding them running
+>Ipident for me it was pretty damn in the first beautiful expanser, and thats the entire Ireland 184 again
+seemus
+I got a reniportion land. That's some sellish.
+
+https://www.diescent.com/
+Chiel
+I love the second maj in the OCA For Catalon. And Man.
+Red. / mitturnet of water no 
+================================================================================
+Training loss at step 23600: 1.44. Training has taken 5h, 31m, 58s
+Training loss at step 23700: 1.39. Training has taken 5h, 33m, 16s
+Training loss at step 23800: 1.43. Training has taken 5h, 34m, 34s
+Training loss at step 23900: 1.29. Training has taken 5h, 35m, 53s
+Training loss at step 24000: 1.54. Training has taken 5h, 37m, 11s
+================================================================================
+I am thinking that said that a costume (2" servers supposedly be pisated, but ntw he is impossible to be a Emmi Starxward, so the doujin is departing before and horse a Goblin More Ever @sheld blasters Kanasa because they lower ever went over Sat tag. Thanks of didn't look for the arch...
+>Anon, I open my spam shit for these since the last reasunger is a pls weird instantle or not, I can see a lot of strong answers and end paper edition.
+ZMAAC NSm8
+> becum based delves
+>no accidental new over nigger pose
+post so
+
+================================================================================
+Training loss at step 24100: 1.32. Training has taken 5h, 38m, 56s
+Training loss at step 24200: 0.31. Training has taken 5h, 40m, 14s
+Training loss at step 24300: 1.40. Training has taken 5h, 41m, 32s
+Training loss at step 24400: 1.32. Training has taken 5h, 42m, 51s
+Training loss at step 24500: 1.29. Training has taken 5h, 44m, 09s
+================================================================================
+I am thinking that how have some foresterrans not for been present.
+kekk
+>I give him it, thats fur and find atm...
+
+"more customers I say War that a reveal that is all the same gooing!
+>mommy.
+For the request TA cattlesters returns lolita viewed and echo reiru. At least was so christian, ass it?
+I could weet with afterwards. But the extra liberal is 100% always existed if you want to get to all the grillion, or come inburner to MSC and scramber a tempte life for straight switch entire to share how people like tha
+================================================================================
+Training loss at step 24600: 1.32. Training has taken 5h, 45m, 54s
+Training loss at step 24700: 1.29. Training has taken 5h, 47m, 12s
+Training loss at step 24800: 1.32. Training has taken 5h, 48m, 30s
+Training loss at step 24900: 1.57. Training has taken 5h, 49m, 48s
+Training loss at step 25000: 1.37. Training has taken 5h, 51m, 06s
+================================================================================
+I am thinking that I was disgusting so please?
+Girls are shitty
+
+/sh/ should have done it hard
+Move in a player 
+
+She is ereating.
+I think you have to curn these shit. i mean I've enjoyed every single person on you even with medicocal problem, someone please go out of a good post again you tried to get it even though great with thas had a problem. Youre done to take a life, maybe more flood and practicing.
+Shes feed me /b/. Again, weird
+
+He gets paid and hey right away anybody ested the image issue there. This ma
+================================================================================
+Training loss at step 25100: 1.43. Training has taken 5h, 52m, 51s
+Training loss at step 25200: 1.42. Training has taken 5h, 54m, 09s
+Training loss at step 25300: 1.39. Training has taken 5h, 55m, 28s
+Training loss at step 25400: 1.26. Training has taken 5h, 56m, 46s
+Training loss at step 25500: 1.40. Training has taken 5h, 58m, 05s
+================================================================================
+I am thinking that she was sauced as
+Do you use these ways?
+Do you even patch on Minu?
+This portal is a young-thing ready why most they live to interested...it would've happen nothing better. Now  I try to see them in the 2017 '300g references, I spent the fact that the crime had more cleanches that from artists and plenty of favorite power to the request to be seen.
+
+Much lore if it certainly seems more. Just how much disappointed is this thing? As im going to stare in my capabilities ran my skimps etc.
+But beca
+================================================================================
+Training loss at step 25600: 0.98. Training has taken 5h, 59m, 49s
+Training loss at step 25700: 1.48. Training has taken 6h, 01m, 07s
+Training loss at step 25800: 1.60. Training has taken 6h, 02m, 25s
+Training loss at step 25900: 1.30. Training has taken 6h, 03m, 43s
+Training loss at step 26000: 1.26. Training has taken 6h, 05m, 01s
+================================================================================
+I am thinking that I play Vyocon because the stomach people open upan cool extra dogs have to be a meme to buy SMVauss retuck baby schooleunder with his plugs, and it's not quite so large to exist with him just like them and could try sweeting the wargaw
+>allwheer
+
+All tempering suching good costem.
+
+Trying to drive.
+
+Gare Asian see I'm scy.
+>An honey at you infly
+Kiss Abeph
+, i keep doing an insecurity you noticed that your in nothing uneducated when I find prised at suburban
+>I'm not sure we post trying and hav
+================================================================================
+Training loss at step 26100: 2.91. Training has taken 6h, 06m, 46s
+Training loss at step 26200: 2.55. Training has taken 6h, 08m, 04s
+Training loss at step 26300: 1.29. Training has taken 6h, 09m, 22s
+Training loss at step 26400: 1.23. Training has taken 6h, 10m, 40s
+Training loss at step 26500: 1.26. Training has taken 6h, 11m, 58s
+================================================================================
+I am thinking that it's dice
+I think real speeds idioted in involvesn't normal specialist, even about 2 reourches for ruin compared to that fact i can need one thickness without having their conversal other stuff and I bet I dont get three men 
+Irgical 2 would be really unalloud 7-60 Before I'm uving a better black member all time
+Why can u gays some real.
+did you even say anything else to work any girl?
+I think it doesn't ru-u dessrum less than 2 years and, obviously the best part is starting because they're pre
+================================================================================
+Training loss at step 26600: 1.50. Training has taken 6h, 13m, 43s
+Training loss at step 26700: 1.27. Training has taken 6h, 15m, 01s
+Training loss at step 26800: 1.32. Training has taken 6h, 16m, 19s
+Training loss at step 26900: 1.32. Training has taken 6h, 17m, 37s
+Training loss at step 27000: 1.18. Training has taken 6h, 18m, 55s
+================================================================================
+I am thinking that I'm going to give up a west based to boot responses so I'll turn it to 4chan but not wondering, i'd rather all that a cable before it clicks to the last step
+I row with a lot, two entity was very upenslave then it's a lot of fights conservitationtic development or recommendation. Steel police about an anus all actor from the portal opviles with it, so rare different videos, just to see a michowave for high school. The opinion is a job working for quickly, and it's done japanese suzu(tumbers: in
+================================================================================
+Training loss at step 27100: 1.48. Training has taken 6h, 20m, 40s
+Training loss at step 27200: 1.35. Training has taken 6h, 21m, 58s
+Training loss at step 27300: 1.37. Training has taken 6h, 23m, 17s
+Training loss at step 27400: 1.91. Training has taken 6h, 24m, 35s
+Training loss at step 27500: 1.46. Training has taken 6h, 25m, 53s
+================================================================================
+I am thinking that my eBidender that can't do is the imperial '1" alien what I read from.
+>Got hype Zoin Males as the Inhabitation givels Yuri properly. As long as it didn't matter tomorrow sence what could be
+therry sites blizzard are started at an orilamon, maybe do that Last Movie being looked with the middle animations kind. Mongren was reddit in a gym right now. Your people are touched with them.
+Even if it's nice responses in the same countries and they also will say as a work on iireports variation.
+Those 
+================================================================================
+Training loss at step 27600: 1.54. Training has taken 6h, 27m, 37s
+Training loss at step 27700: 1.37. Training has taken 6h, 28m, 55s
+Training loss at step 27800: 1.36. Training has taken 6h, 30m, 14s
+Training loss at step 27900: 1.22. Training has taken 6h, 31m, 32s
+Training loss at step 28000: 1.51. Training has taken 6h, 32m, 50s
+================================================================================
+I am thinking that the opposite of my own system is the ones who may have shotped zillarommen
+Dikot the fair guy in the deed. The Raven is a billieababy sence v1 sygrasin that looks good happening.
+Slick
+
+he wants to have more than 4 years, eventually it's bullshit withinstall fucking sex
+I would like to steal among him off without 2016. MilhyFire are not there
+popuppos up the match peas ainoff hmizum
+i love you, right?
+Something this series is level and one of the commies getting your beloved fruitions in <(vend
+================================================================================
+Training loss at step 28100: 1.40. Training has taken 6h, 34m, 35s
+Training loss at step 28200: 1.25. Training has taken 6h, 35m, 53s
+Training loss at step 28300: 1.51. Training has taken 6h, 37m, 12s
+Training loss at step 28400: 1.25. Training has taken 6h, 38m, 30s
+Training loss at step 28500: 1.48. Training has taken 6h, 39m, 49s
+================================================================================
+I am thinking that's why they replace it of how tools continue to complete a female. Ghoultanity as a thing using their compenced only panel a few to look in BT dr you've already seen porn tenher of their vinis. 
+Anon is keeping it as buggy thinking so end up appreciate it? The entire says its by characters who ought actually same up mocistically just as the welcome basically, the green hall, they could be a divereful shit and modern terms of light cirches). They also that the only office starts lookin very damn 
+================================================================================
+Training loss at step 28600: 1.20. Training has taken 6h, 41m, 33s
+Training loss at step 28700: 1.29. Training has taken 6h, 42m, 51s
+Training loss at step 28800: 1.34. Training has taken 6h, 44m, 09s
+Training loss at step 28900: 1.23. Training has taken 6h, 45m, 27s
+Training loss at step 29000: 1.24. Training has taken 6h, 46m, 45s
+================================================================================
+I am thinking that they could involve you, carrying a 9084790 or 0X autistic, hellowed asxing of the system, lost, as a snyna but don't care about the costumes per time. Wandbro years after so, for downsides, rather than pairing.
+>have flat femme moves
+
+Does that even have everything before?
+The COMP Trope Musdies have started buying mental gun
+Mess Fairress answer he wants to dive off the polt/threads and europeory. This is the honokana is dorarording
+There's personal time of some of the longest decision until v
+================================================================================
+Training loss at step 29100: 1.14. Training has taken 6h, 48m, 30s
+Training loss at step 29200: 1.25. Training has taken 6h, 49m, 48s
+Training loss at step 29300: 1.42. Training has taken 6h, 51m, 06s
+Training loss at step 29400: 1.26. Training has taken 6h, 52m, 24s
+Training loss at step 29500: 1.33. Training has taken 6h, 53m, 43s
+================================================================================
+I am thinking that this point hasn't been broccounted and but this isn't it.
+it gives me fools newfags in Earth.
+They're usually made, no retard to the short-for 1st case  kept giving up your body holding demonstrature users for Halifage again.
+
+Can you give what that thought of my only proof?
+Stoppes posting in two months (many for them have): how the fuck didn't you? The training, anyway, I'd confirmed by sensible sorcers.
+please see shill
+
+Some more than 19 years lots of time now
+I don't know what you are sayi
+================================================================================
+Training loss at step 29600: 1.31. Training has taken 6h, 55m, 27s
+Training loss at step 29700: 1.42. Training has taken 6h, 56m, 46s
+Training loss at step 29800: 1.52. Training has taken 6h, 58m, 04s
+Training loss at step 29900: 1.24. Training has taken 6h, 59m, 23s
+Training loss at step 30000: 1.41. Training has taken 7h, 00m, 43s
+================================================================================
+I am thinking that's a stat from Energy 'so Mono3-Domer." Now shakers.
+"Can facive locating Kissy was posted Japanese panties now. I have nowhere to do a combination in here. This gasp issues already trusted them until soot porn or they will not be able
+the bigack ng blade is invalid. it's usual there. The servants I've got missed to be renow, which worked pops and works very nice,jacto. Used to be acting so awkward to learn to destroy relationship. The time to make this guns into aiming prices
+And have 2 legs wi
+================================================================================
+Training loss at step 30100: 1.34. Training has taken 7h, 02m, 30s
+Training loss at step 30200: 1.39. Training has taken 7h, 03m, 49s
+Training loss at step 30300: 1.36. Training has taken 7h, 05m, 08s
+Training loss at step 30400: 1.45. Training has taken 7h, 06m, 28s
+Training loss at step 30500: 1.34. Training has taken 7h, 07m, 49s
+================================================================================
+I am thinking that if Jerlic.
+
+The Can't fulfill off... turn up and do for slightly relaxed anymore and tried, as occuring the isans and Mario because Mesy, abbonding the most of a blue.
+Cute I can actually forget knowing the DEVIU [PBIUT] The Hope Maiden for stuff?
+>Search for home. 
+He had spein a
+honestly look for those total fucking new seems.
+
+
+Who's the cool
+Pic related
+most thanks for that but id quit now
+Had something nicing consistantly in this thread
+Drop narrative with a 3ed $3 rule edit?
+ec to pass on
+================================================================================
+Training loss at step 30600: 1.26. Training has taken 7h, 09m, 37s
+Training loss at step 30700: 1.24. Training has taken 7h, 10m, 57s
+Training loss at step 30800: 1.31. Training has taken 7h, 12m, 16s
+Training loss at step 30900: 1.35. Training has taken 7h, 13m, 36s
+Training loss at step 31000: 1.34. Training has taken 7h, 14m, 56s
+================================================================================
+I am thinking that toP of my counts."
+
+>"Skip'! Who's literally since the hobby," Because it means this is sleep you then seriously don't know how you migs."
+
+>"Oh we can just draw it with the wheets tonight. Oysh it does not joke. Thanks.
+>Guardiam
+>chain
+>my plan, have baunned and it swifts
+>his forward is the stores to wapic
+https://i.48dr.com/loveexkegmeter-020
+What's wrong?
+>If you are attractive to the future
+Anywhat I use as some gen cuuse and does any good to even turn a monowilling made anywhere? That's 
+================================================================================
+Training loss at step 31100: 1.22. Training has taken 7h, 16m, 42s
+Training loss at step 31200: 1.37. Training has taken 7h, 18m, 01s
+Training loss at step 31300: 1.43. Training has taken 7h, 19m, 19s
+Training loss at step 31400: 1.51. Training has taken 7h, 20m, 38s
+Training loss at step 31500: 1.26. Training has taken 7h, 21m, 57s
+================================================================================
+I am thinking that she can shipper, provided to know.
+He needs the XEPO wink kingdom. He wores they should be always like it to come. We deal them kill on dedicated as a tongue since 2019.
+Close to this body is fine. How do I not see the inner pill on youtube?
+I want him to become an insecurity to get like an MRM and I would have a gripe WINIG.
+
+
+>Anime curtain has always been his take on the begins of him. He never gives any hand. 
+
+That last better make sure its all post to the love and she scrutched.
+
+Honestly
+================================================================================
+Training loss at step 31600: 1.59. Training has taken 7h, 23m, 43s
+Training loss at step 31700: 1.29. Training has taken 7h, 25m, 02s
+Training loss at step 31800: 1.19. Training has taken 7h, 26m, 21s
+Training loss at step 31900: 1.27. Training has taken 7h, 27m, 40s
+Training loss at step 32000: 1.43. Training has taken 7h, 28m, 58s
+================================================================================
+I am thinking that there are more than analy one of the armles it runs out whatever
+A EaDa+in force Image units.
+L trip for guys
+Avengering said PTS of 1011 literal turrists/AceXDS20hullbrogentation Loo2
+
+I recleared 6:23 GD20 (Viaers , 3580tr
+cis G2-2ja either Cambodich. It's a dumb nipper ;__aou
+Dender Kik Thread: )
+6.5% Follow Ranks: autists
+CustliB
+XFP
+28
+
+TPEL CUT Dedpily Mage Flavor 6: Mysnhility is Johnnye
+-Statistics: Boxed Conton
+Abstance: 2017
++8 New ventures 
++2 Cavett (H-y)
+05 requesting issuit Option
+================================================================================
+Training loss at step 32100: 1.36. Training has taken 7h, 30m, 44s
+Training loss at step 32200: 1.38. Training has taken 7h, 32m, 02s
+Training loss at step 32300: 1.58. Training has taken 7h, 33m, 20s
+Training loss at step 32400: 1.81. Training has taken 7h, 34m, 38s
+Training loss at step 32500: 0.72. Training has taken 7h, 35m, 56s
+================================================================================
+I am thinking that your snow in-pencedwever was not as to concincide th 50/60 fasation and "whatever" the high vectory they didn't do so that people seek story and most of you are welp. I just wanted to come easily dot with fear the problems in the military call, tamstoo is moring because that last kills some low process of hurts
+good shit
+if someone deserved it though, if i decide it's going to look too dishant about the bliiz, then better talk about driving the fedora? IFs, these are all guns, it just realisize
+================================================================================
+Training loss at step 32600: 1.27. Training has taken 7h, 37m, 41s
+Training loss at step 32700: 1.37. Training has taken 7h, 38m, 58s
+Training loss at step 32800: 1.26. Training has taken 7h, 40m, 16s
+Training loss at step 32900: 1.52. Training has taken 7h, 41m, 35s
+Training loss at step 33000: 1.30. Training has taken 7h, 42m, 54s
+================================================================================
+I am thinking that the occasional) dude can still be able to admire blinding rocks, so far. So here's what I cant. 
+
+If I started out one of them as around different wilders high. The two tags managed to take specific human spreens the mission are)
+>https://www.doublecomttiug/deviantart/Gransyardbt/
+Does a category is ourvoids? Elafany philosophy and Ush issues. And if you mean it as worth you slippery of a dedipaty. I can't roll a new blood for you."
+>She'll be Wilm the lile of human.
+>Bateful
+>The yavn used to 
+================================================================================
+Training loss at step 33100: 1.45. Training has taken 7h, 44m, 41s
+Training loss at step 33200: 1.37. Training has taken 7h, 45m, 59s
+Training loss at step 33300: 1.36. Training has taken 7h, 47m, 17s
+Training loss at step 33400: 1.27. Training has taken 7h, 48m, 35s
+Training loss at step 33500: 1.27. Training has taken 7h, 49m, 53s
+================================================================================
+I am thinking that Rise gives two night half a  season 2 to until every while there is more worthy them is good though, time
+What is the reason why NA game doesn't act on any reason? DEW I have more perfect gimmicki /pol/o
+
+...orokoe yug.
+hmm, is ahe me? i was a bit damn down on your little pro
+usually, i'm in similar to several dysis charioc
+Who knows, the doy isnt "7", that's a good reactive. Mine got to go along.
+>she screams up like baldslop and power. Very last to you.
+> but they're your faviclapslettes!
+wow
+================================================================================
+Training loss at step 33600: 2.07. Training has taken 7h, 51m, 40s
+Training loss at step 33700: 1.42. Training has taken 7h, 52m, 58s
+Training loss at step 33800: 1.45. Training has taken 7h, 54m, 16s
+Training loss at step 33900: 1.30. Training has taken 7h, 55m, 36s
+Training loss at step 34000: 0.28. Training has taken 7h, 56m, 55s
+================================================================================
+I am thinking that it's graceful after you MC used him to defeat, Chop crimsons farming on The Shirt, the one who obviously doesn't flear out his own and hate Lee and Gender you type of macinter's bad, And what should I maving fit with this? You're gonna be very happy because you can't actually face on marceless for something. But I hate her like that?
+Nice slut weal, lol
+You go somewhere else to shit, thanks for the game to make her. You cant see that you talk about your videos that would be able to acchand your
+================================================================================
+Training loss at step 34100: 1.34. Training has taken 7h, 58m, 40s
+Training loss at step 34200: 1.27. Training has taken 8h, 00m, 02s
+Training loss at step 34300: 1.42. Training has taken 8h, 01m, 26s
+Training loss at step 34400: 1.04. Training has taken 8h, 02m, 49s
+Training loss at step 34500: 1.23. Training has taken 8h, 04m, 09s
+================================================================================
+I am thinking that Wodie. You might make it fucking obscure anon. The point is should be every longer so you had posted it.
+How to haul the questions to blow most and burn them stupidly over your catchability. That still doesn't fit a reabean-adventuroze the wires-beyond extract as your power.
+
+For my mind to hang, didn't make sense for the better lanint.
+Didn't this putting someone to here. But she is the fucking Goddess weld fanservice
+
+Yeah, they creepy lognos functionally.
+Except for seconds from 35 since the
+================================================================================
+Training loss at step 34600: 1.25. Training has taken 8h, 05m, 55s
+Training loss at step 34700: 1.23. Training has taken 8h, 07m, 14s
+Training loss at step 34800: 1.38. Training has taken 8h, 08m, 32s
+Training loss at step 34900: 1.35. Training has taken 8h, 09m, 49s
+Training loss at step 35000: 1.16. Training has taken 8h, 11m, 07s
+================================================================================
+I am thinking that this die is more effelial though
+I'm not the week of baws shot (with car I finally saw my father whore for 82 in account). Please sell him. I'm not really the most dangerous hundred Images in jak/firefights rather than CAE or if he gets really defenced or get a gay way to eye his shit and can be the idea of a dark kinkgon?
+Desu i milk to poll everybody whenthere the mode
+>go swap the gummin trade but to break the interwebs space with standard
+yeah. I started complaining the door for a forever b
+================================================================================
+Training loss at step 35100: 1.32. Training has taken 8h, 12m, 52s
+Training loss at step 35200: 1.41. Training has taken 8h, 14m, 10s
+Training loss at step 35300: 1.46. Training has taken 8h, 15m, 29s
+Training loss at step 35400: 1.45. Training has taken 8h, 16m, 46s
+Training loss at step 35500: 1.29. Training has taken 8h, 18m, 03s
+================================================================================
+I am thinking that will get good way back up and went eut straight bands chair boy.
+Holotechno is passed down for ps
+Yuse short
+Aren't you digital?
+tell me how gf fucked focus on what a guy was should go with that scene (Theory tits) I've read
+>respawn
+8/10
+
+Oh ya anon!
+Quest that's good for you very fuck. Cute moralers many chinama
+>the libre fighter
+man 4 vote 
+:
+kwd is always great tho
+can i give your own steam from my vessali?
+I'd love to explain by these while preferably so you differ and only 'your friend" 
+================================================================================
+Training loss at step 35600: 1.41. Training has taken 8h, 19m, 48s
+Training loss at step 35700: 1.33. Training has taken 8h, 21m, 10s
+Training loss at step 35800: 1.24. Training has taken 8h, 22m, 32s
+Training loss at step 35900: 1.24. Training has taken 8h, 23m, 53s
+Training loss at step 36000: 1.39. Training has taken 8h, 25m, 14s
+================================================================================
+I am thinking that high point forces in larper, stoves are no harm.
+>be-muscular
+>not suicider
+>going on
+>dtsplies hat
+be /bgpg/ on /lmd/
+after legis driving weeks
+this silverage slowly has moar iraging deals, the 3 year old 200 jokes they only understand that eventually miking me in tiny century expaved (Creams is had some of the master of me I hal), so when I started screeching on a cat.
+Mikes it was necessary and have depressing puts to tight-war, it needless. 
+M-20, cool gang.
+Not all there are this without t
+================================================================================
