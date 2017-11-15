@@ -54,16 +54,18 @@ with graph.as_default():
     global_step = tf.Variable(0)
 
     weights = {
-        'out': tf.Variable(tf.random_normal([hidden_size, char_size]))
+        'out': tf.Variable(tf.random_normal([1024, char_size]))
     }
     biases = {
         'out': tf.Variable(tf.random_normal([char_size]))
     }
 
-    cell1 = tf.nn.rnn_cell.BasicLSTMCell(1024)
-    cell1 = tf.nn.rnn_cell.DropoutWrapper(
-        cell1, input_keep_prob=input_keep, output_keep_prob=output_keep)
-    cell2 = tf.nn.rnn_cell.BasicLSTMCell(512)
+    # Multiple cells need to either be declared like this or in a loop, each
+    # by itself!
+    cell1 = tf.nn.rnn_cell.BasicLSTMCell(512)
+    cell2 = tf.nn.rnn_cell.BasicLSTMCell(1024)
+    # cell2 = tf.nn.rnn_cell.DropoutWrapper(
+    #     cell2, input_keep_prob=input_keep, output_keep_prob=output_keep)
 
     rnn_cell = tf.nn.rnn_cell.MultiRNNCell([cell1, cell2])
     outputs, states = tf.nn.dynamic_rnn(rnn_cell, X, dtype=tf.float32)
@@ -88,7 +90,7 @@ with tf.Session(graph=graph) as sess:
         cur_batch = data.next_batch(batch_size, len_per_section)
         _, training_loss = sess.run([optimizer, loss], feed_dict={
                                     X: cur_batch[0], y: cur_batch[1],
-                                    input_keep: 1.0, output_keep: 0.7})
+                                    input_keep: 0.7, output_keep: 1.0})
 
         if step % log_every == 0:
             time_now = time.time()
