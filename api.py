@@ -1,10 +1,12 @@
-import numpy as np
-import random
-import tensorflow as tf
 import datetime
-import dataset
-import time
 import os
+import random
+import time
+
+import numpy as np
+import tensorflow as tf
+
+import dataset
 
 hidden_size = 512
 batch_size = 1024
