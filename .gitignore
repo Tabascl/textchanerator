@@ -103,3 +103,4 @@ ENV/
 # custom
 ckpt/
 cleaned_posts.txt
+.vscode/
