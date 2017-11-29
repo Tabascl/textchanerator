@@ -64,8 +64,8 @@ with graph.as_default():
     # by itself!
     cell1 = tf.nn.rnn_cell.BasicLSTMCell(512)
     cell2 = tf.nn.rnn_cell.BasicLSTMCell(1024)
-    # cell2 = tf.nn.rnn_cell.DropoutWrapper(
-    #     cell2, input_keep_prob=input_keep, output_keep_prob=output_keep)
+    cell2 = tf.nn.rnn_cell.DropoutWrapper(
+        cell2, input_keep_prob=input_keep, output_keep_prob=output_keep)
 
     rnn_cell = tf.nn.rnn_cell.MultiRNNCell([cell1, cell2])
     outputs, states = tf.nn.dynamic_rnn(rnn_cell, X, dtype=tf.float32)
@@ -90,7 +90,7 @@ with tf.Session(graph=graph) as sess:
         cur_batch = data.next_batch(batch_size, len_per_section)
         _, training_loss = sess.run([optimizer, loss], feed_dict={
                                     X: cur_batch[0], y: cur_batch[1],
-                                    input_keep: 0.7, output_keep: 1.0})
+                                    input_keep: 1.0, output_keep: 0.7})
 
         if step % log_every == 0:
             time_now = time.time()
