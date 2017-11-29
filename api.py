@@ -4,6 +4,7 @@ import tensorflow as tf
 import datetime
 import dataset
 import time
+import os
 
 hidden_size = 512
 batch_size = 1024
@@ -15,7 +16,7 @@ log_every = 100
 test_every = 500
 checkpoint_directory = 'ckpt'
 
-test_start = "I am thinking that"
+test_start = "I plan to make the world a better place by"
 
 text = open('cleaned_posts.txt').read()
 data = dataset.DataSet(text)
@@ -54,7 +55,7 @@ with graph.as_default():
     global_step = tf.Variable(0)
 
     weights = {
-        'out': tf.Variable(tf.random_normal([1024, char_size]))
+        'out': tf.Variable(tf.random_normal([512, char_size]))
     }
     biases = {
         'out': tf.Variable(tf.random_normal([char_size]))
@@ -63,7 +64,7 @@ with graph.as_default():
     # Multiple cells need to either be declared like this or in a loop, each
     # by itself!
     cell1 = tf.nn.rnn_cell.BasicLSTMCell(512)
-    cell2 = tf.nn.rnn_cell.BasicLSTMCell(1024)
+    cell2 = tf.nn.rnn_cell.BasicLSTMCell(512)
     cell2 = tf.nn.rnn_cell.DropoutWrapper(
         cell2, input_keep_prob=input_keep, output_keep_prob=output_keep)
 
@@ -83,10 +84,21 @@ with graph.as_default():
 
 
 with tf.Session(graph=graph) as sess:
-    tf.global_variables_initializer().run()
-    saver = tf.train.Saver()
+    if os.path.exists(checkpoint_directory):
+        print("Checkpoint found, restoring...")
+        model = tf.train.latest_checkpoint(checkpoint_directory)
+        saver = tf.train.Saver()
+        saver.restore(sess, model)
+        start_step = int(model.split('-')[-1])
+        print("Resuming from step %d" % start_step)
+    else:
+        print("No checkpoint found. Starting new training...")
+        tf.global_variables_initializer().run()
+        saver = tf.train.Saver()
+        start_step = 0
     time_start = time.time()
-    for step in range(max_step):
+    print("Training starts at %s" % time.ctime())
+    for step in range(start_step, max_step):
         cur_batch = data.next_batch(batch_size, len_per_section)
         _, training_loss = sess.run([optimizer, loss], feed_dict={
                                     X: cur_batch[0], y: cur_batch[1],
